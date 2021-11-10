@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='python-face-recognition-wrapper',
-    version='0.1.0',
+    version='0.2.0',
     author='Smirnov.EV',
     author_email='knyazz@gmail.com',
     description='wrapper of face recognition sdk to compare faces',
@@ -24,7 +24,7 @@ setuptools.setup(
         'numpy==1.21.3',
         'Pillow==8.4.0',
         'face_recognition_models==0.3.0',
-        'face-recognition==1.3.0'
+        'face-recognition==1.3.0',
         'dlib==19.22.1',
         'click==8.0.3',
     ],
